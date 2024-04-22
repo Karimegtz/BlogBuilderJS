@@ -1,0 +1,52 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  /* Modo claro (estilos por defecto) */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .custom-control-label {
+    color: #555; /* Cambia a cualquier color que prefieras */
+}
+  /* Modo oscuro */
+  body.dark-mode .custom-control-label {
+    /* background-color: #333; */
+    /* color: #f4f4f4; */
+    color: #ccc;
+
+  }
+
+  .footerConfi{
+    text-align: left;
+  }

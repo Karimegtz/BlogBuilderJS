@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Blog</title>
+  <!-- vinculación con los archivos CSS para los estilos -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+  <header>
+    <h1>My First Blog</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>What's on your mind?</h2>
+      <form id="blogForm">
+        <div>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+        </div>
+        <div>
+          <label for="title">Title</label>
+          <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+          <label for="content">Content</label>
+          <textarea id="content" name="content" rows="4" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by karime</p>
+    <ul class="footerConfi">
+        <li>Portafolio <a href="D:\BootCamp\BlogBuilderJS\index.html">Karime</a></li>
+        <li>Blog: <a href="https://www.linkedin.com/in/karime-gutiérrez" target="_blank"> KarimeBlog</a></li>
+        <li>Email: <a href="mailto:karime@portafolio.com">karime@portafolio.com</a></li>
+
+    </ul>
+  
+
+  </footer>
+
+  <!-- vinculación con los archivos JavaScript para la lógica -->
+  <script src="assets/js/logic.js"></script>
+  <script src="assets/js/form.js"></script>
+</body>
+</html>

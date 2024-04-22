@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entradas del Blog</title>
+  <!-- Vincular con los archivos CSS para los estilos de la página del blog -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/blog.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <h1>Entradas de Mi Blog</h1>
+    <!-- Aquí puedes agregar el botón de alternar entre modos claro y oscuro -->
+    <!-- Botón de alternar entre modos claro y oscuro -->
+  <div class="custom-control custom-switch">
+    <input type="checkbox" class="custom-control-input" id="darkModeSwitch">
+    <label class="custom-control-label" for="darkModeSwitch">Modo Oscuro</label>
+  </div>
+  </header>
+  
+  <!-- Botón 'Back' para regresar al formulario del blog -->
+  <nav>
+    <a href="index.html" class="back-button">← Back</a>
+  </nav>
+
+  <main>
+    <!-- Aquí se mostrarán las entradas del blog -->
+    <div class="container">
+        <div id="blogList" class="row">
+          <!-- Las entradas del blog creadas en blog.js se cargarán aquí -->
+        </div>
+      </div>
+  </main>
+
+  <footer>
+    <p>Desarrollado por <a href="#tu-portfolio-link">tu nombre</a></p>
+  </footer>
+
+  <!-- Vincular con los archivos JavaScript para la lógica de la página del blog -->
+  <script src="assets/js/logic.js"></script>
+  <script src="assets/js/blog.js"></script>
+</body>
+</html>
