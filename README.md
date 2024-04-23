@@ -40,10 +40,6 @@ Click on "Submit" to save your post to localStorage and be redirected to blog.ht
 ## Credits
 This project is released under the MIT License. see the LICENSE.md File for details.
 
-## Features
-Blog Post Creation: Users can create and submit blog posts.
-View Posts: Users can view all blog posts on a separate page.
-Light/Dark Mode: Users can toggle between light and dark mode for easier reading.
 
 ## Features
 
